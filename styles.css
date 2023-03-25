@@ -157,7 +157,135 @@ nav .navContent .signinArea img{
 
 background-position: center;
 }
+.section1 .firstBackground{
+    color:white;
+    display:flex;
+    flex-direction: column;
+   align-items: center;
+}
+
+.section1 .firstBackground h1{
+    font-size: 4rem;
+    font-weight:bold;
+    margin-top: 3rem;
+    
+}
+
+.section1 .firstBackground button{
+    background-color: rgb(51, 99, 99);
+    border:none;
+    border-radius: 2rem;
+    width:10rem;
+    line-height: 2rem;
+    margin-top: 3rem;
+    color:white;
+    cursor:pointer;
+}
+
+.section1 .firstBackground button:hover{
+    background-color: rgb(122, 29, 42);
+    text-transform: uppercase;
+}
 
 
 /*end of section1*/
+
+/*......................................start of section2*......................*/
+
+.gridContainer{
+    width:100%;
+    padding:2rem 15%;
+  display:grid;
+  grid-gap: 1rem;
+  
+grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+
+
+}
+
+.section2 .gridContainer .grid{
+width:20rem;
+height:10rem;
+}
+
+
+.section2 .gridContainer .grid img{
+    width:100%;
+    height:100%;
+    
+}
+
+.section2 .gridContainer .promotionGrid, .membersGrid{
+    position:relative;
+
+}
+
+.section2 .gridContainer .membersGrid{
+    position:relative;
+}
+.section2 .gridContainer .waffleGrid{
+    position:relative;
+}
+.section2 .gridContainer .waterLilly{
+    position:relative;
+    
+}
+
+.section2 .gridContainer .button{
+   width:70%;
+   height: 3rem;
+   border:none;
+   border-radius: 1.5rem;
+   color:white;
+   background-color:rgb(51, 99, 99)
+  
+   
+   
+}
+.section2 .gridContainer .button1{
+    position:absolute;
+    bottom:2rem;
+    left:20%;
+   
+}
+
+.section2 .gridContainer .button2{
+    position:absolute;
+    bottom:2rem;
+    left:20%;
+   
+}
+
+.section2 .gridContainer .button22{
+    
+    position:absolute; 
+   
+    left:0;
+    top: 0;
+    width:60%;
+   height: 1.5rem;
+   border:none;
+   
+   color:white;
+   background-color:rgb(51, 99, 99)
+    
+   
+}
+
+.section2 .gridContainer .button3{
+    position:absolute;
+    bottom:2rem;
+    left:20%;
+   
+}
+
+.section2 .gridContainer .button4{
+    position:absolute;
+    bottom:2rem;
+    left:20%;
+   
+}
+
+
+/*......................................end of section2*......................*/
 
